@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters Suite">
+<!--    parameter Tag can be at a suite level or at the test level-->
+<!--    it should have a name and value attribute-->
+   <parameter name ="URL" value="https://www.lambdatest.com/selenium-playground/" />
+   <parameter name ="Task" value='Download File' />
+    <test name="Pass Parameters Test">
+        <parameter name="TestResult" value="Pass"></parameter>
+        <classes>
+            <class name="DemoTestNG.ParameterizedTest"></class>
+        </classes>
+    </test>
+
+    <test name="Fail Parameters Test">
+        <parameter name="TestResult" value="Fail"></parameter>
+        <classes>
+            <class name="DemoTestNG.ParameterizedTest"></class>
+        </classes>
+
+    </test>
+
+    <test name="Skip Parameters Test">
+        <parameter name="TestResult" value="Skip"></parameter>
+        <classes>
+            <class name="DemoTestNG.ParameterizedTest"></class>
+        </classes>
+
+    </test>
+</suite>

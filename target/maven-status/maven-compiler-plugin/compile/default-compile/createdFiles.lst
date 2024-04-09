@@ -1,0 +1,4 @@
+org\example\Main.class
+com\lambdatest\pages\BasePage.class
+com\lambdatest\pages\BootStrapProgressBarPage.class
+com\lambdatest\pages\HomePage.class

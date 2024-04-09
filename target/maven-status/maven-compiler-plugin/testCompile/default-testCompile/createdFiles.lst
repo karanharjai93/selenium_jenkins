@@ -1,0 +1,15 @@
+DemoTestNG\TakeFailedScreenshots.class
+com\lambdatest\tests\BaseTest.class
+DemoTestNG\DynamicWaits.class
+DemoTestNG\DataProviderOnly.class
+com\lambdatest\tests\ProgressBarTest.class
+DemoTestNG\ParallelTesting1.class
+DemoTestNG\DataProvidersTest.class
+DemoTestNG\ParallelTesting2.class
+DemoTestNG\First_Automated_Test.class
+DemoTestNG\CrossBrowserTesting.class
+DemoTestNG\ConfigurationAnnotation_2_ListBox.class
+DemoTestNG\ParameterizedTest.class
+DemoTestNG\DynamicWaits$1.class
+DemoTestNG\AssertionsTest.class
+DemoTestNG\ConfigurationAnnotation_1_DatePickers.class
